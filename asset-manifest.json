@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Living-Seed-Academy/static/css/main.d67e917c.css",
-    "main.js": "/Living-Seed-Academy/static/js/main.77ad119f.js",
+    "main.css": "/Living-Seed-Academy/static/css/main.fcc2191e.css",
+    "main.js": "/Living-Seed-Academy/static/js/main.d21b1934.js",
     "static/js/311.04b12d37.chunk.js": "/Living-Seed-Academy/static/js/311.04b12d37.chunk.js",
     "static/js/726.c78ca90d.chunk.js": "/Living-Seed-Academy/static/js/726.c78ca90d.chunk.js",
     "static/media/vido.mp4": "/Living-Seed-Academy/static/media/vido.a2255379747dd35b0899.mp4",
@@ -39,13 +39,13 @@
     "static/media/skype.png": "/Living-Seed-Academy/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "static/media/circle.svg": "/Living-Seed-Academy/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "index.html": "/Living-Seed-Academy/index.html",
-    "main.d67e917c.css.map": "/Living-Seed-Academy/static/css/main.d67e917c.css.map",
-    "main.77ad119f.js.map": "/Living-Seed-Academy/static/js/main.77ad119f.js.map",
+    "main.fcc2191e.css.map": "/Living-Seed-Academy/static/css/main.fcc2191e.css.map",
+    "main.d21b1934.js.map": "/Living-Seed-Academy/static/js/main.d21b1934.js.map",
     "311.04b12d37.chunk.js.map": "/Living-Seed-Academy/static/js/311.04b12d37.chunk.js.map",
     "726.c78ca90d.chunk.js.map": "/Living-Seed-Academy/static/js/726.c78ca90d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d67e917c.css",
-    "static/js/main.77ad119f.js"
+    "static/css/main.fcc2191e.css",
+    "static/js/main.d21b1934.js"
   ]
 }
