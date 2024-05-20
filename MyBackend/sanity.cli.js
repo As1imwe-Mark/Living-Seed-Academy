@@ -9,4 +9,4 @@ export default defineCliConfig({
       source: '@sanity/asset-source-imagetool'
     }
   }
-})
+});

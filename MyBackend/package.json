@@ -15,6 +15,7 @@
     "sanity"
   ],
   "dependencies": {
+    "@sanity/desk-tool": "^2.36.2",
     "@sanity/vision": "^3.42.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -33,5 +34,9 @@
     "printWidth": 100,
     "bracketSpacing": false,
     "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:as1imwe-mark/Living-Seed-Academy.git"
   }
 }
