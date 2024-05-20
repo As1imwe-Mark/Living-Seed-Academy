@@ -15,7 +15,7 @@ const Gallery = () => {
     <div>
      <div>
       <h2 className="head-text mb-1">
-        Meet <span>The</span> Media <span>Gallery</span>
+        <span>Our</span> Media <span>Gallery</span>
       </h2>
       </div>
       <div className='flex space-x-3 justify-center items-center'>

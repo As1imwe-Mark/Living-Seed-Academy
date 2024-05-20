@@ -54,7 +54,7 @@ const News = () => {
 
       <div className="flex justify-center mt-4">
         <button
-          className="bg-blue-500 text-white px-4 py-2 rounded"
+          className="bg-blue-500 text-white px-4 py-2 rounded mt-3"
           onClick={() => setShowAll(!showAll)}
         >
           {showAll ? 'Show Less' : 'Show More'}
@@ -63,15 +63,16 @@ const News = () => {
 
       {selectedArticle && (
         <motion.div
-          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center cursor-pointer items-center z-50"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
+          onClick={closeModal}
         >
           <div className="bg-white p-4 rounded-lg max-w-[60%] max-h-[70%] overflow-y-auto relative">
-            <button className="absolute top-2 right-2 text-xl" onClick={closeModal}>
+            {/* <button className="absolute bottom-10 top-2 right-1 text-xl" onClick={closeModal}>
               <MdClose />
-            </button>
+            </button> */}
             <h2 className="text-2xl font-semibold mb-2">{selectedArticle.title}</h2>
             <p className="text-gray-700 mb-4">{selectedArticle.content}</p>
           </div>

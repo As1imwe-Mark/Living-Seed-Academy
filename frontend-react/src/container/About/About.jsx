@@ -14,7 +14,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="text-4xl font-bold my-8 text-center lg:text-left">
+      <h2 className="text-4xl font-bold my-8 text-center lg:text-left head-text">
         <span className="text-blue-600">About </span>Living <span className="text-blue-600">Seed</span> Academy
       </h2>
 
@@ -24,7 +24,7 @@ const About = () => {
           transition={{ duration: 0.5, type: 'tween' }}
           className="w-full lg:w-1/2"
         >
-          <img src={images.about01} alt="school" className="rounded-lg w-full" />
+          <img src={images.pic5} alt="school" className="rounded-lg w-full shadow-xl" />
         </motion.div>
 
         <motion.div

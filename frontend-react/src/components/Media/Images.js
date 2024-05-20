@@ -85,14 +85,12 @@ const Pic = () => {
         )}
 
         {isModalOpen && selectedImage && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-            <div className="relative bg-slate-300 p-4 rounded-lg max-w-md w-full">
-              <button className="absolute top-2 right-2 text-xl" onClick={closeModal}>
-                <FaTimes />
-              </button>
+          <div className="fixed inset-0 flex justify-center items-center z-50">
+            <div className="bg-black bg-opacity-50 fixed inset-0 cursor-pointer" onClick={closeModal}></div>
+            <div className="relative bg-white bg-opacity-85 p-4 rounded-lg max-w-md w-full shadow-xl">
               <img src={getImageUrl(selectedImage.image)} alt={selectedImage.title} className="w-full h-auto" />
-              <h2 className="font-bold text-center mt-4">{selectedImage.title}</h2>
-              <p className="text-sm mt-2 text-center">{selectedImage.description}</p>
+              <h2 className="font-bold text-[#313bac] mt-4">{selectedImage.title}</h2>
+              <p className="text-sm mt-2 text-center p-text">{selectedImage.description}</p>
             </div>
           </div>
         )}

@@ -9,7 +9,7 @@ const Bg = [
 ];
 
 const texts = [
-  "Welcome to Living Seed Academy, a nurturing environment where children are empowered to fulfill their unique calling and purpose in God, Our mission is to provide a holistic education that fosters spiritual growth, academic excellence, and character development.",
+  "Welcome to Living Seed Academy, Our mission is to provide a holistic education that fosters spiritual growth, academic excellence, and character development.",
 ];
 
 const preloadImages = (imageArray) => {
@@ -35,7 +35,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="relative flex items-center justify-center w-full min-h-screen">
+    <div id='home' className="relative flex items-center justify-center w-full min-h-screen">
       <AnimatePresence>
         <motion.div
           key={bgIndex}
@@ -49,7 +49,7 @@ const Header = () => {
           <div className="absolute inset-0 bg-black opacity-15"></div>
         </motion.div>
       </AnimatePresence>
-      <div className="relative z-10 flex flex-col md:flex-row justify-between items-center text-white p-4 md:w-1/2 max-h-[70%]">
+      <div className="relative z-1 flex flex-col md:flex-row justify-between items-center text-white p-4 md:w-1/2 max-h-[70%]">
         <motion.div
           className="mb-8 md:mb-0 md:flex-1 flex flex-col items-start my-auto p-4 bg-gray-800 bg-opacity-50 rounded-lg"
         >
@@ -74,7 +74,7 @@ const Header = () => {
           </div>
 
           <div className="flex flex-col items-start p-4 bg-gray-800 bg-opacity-75 rounded-lg">
-            <p className="text-lg text-pink-400 m font-semibold md:text-lg">
+            <p className="text-lg text-pink-400 m font-semibold md:text-xl">
               <TypeAnimation
                 sequence={[texts[textIndex], 7000]}
                 wrapper="span"
@@ -90,4 +90,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header
